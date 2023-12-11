@@ -1,0 +1,15 @@
+/* Global styles */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+/* header */
+.banner {
+  background: #5000ca22;
+  padding: 2rem;
+}
