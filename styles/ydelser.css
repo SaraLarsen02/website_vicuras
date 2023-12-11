@@ -13,3 +13,8 @@ h1 {
   background: #5000ca22;
   padding: 2rem;
 }
+
+/* footer */
+footer {
+  background-color: blue;
+}
