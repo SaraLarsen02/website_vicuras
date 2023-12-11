@@ -43,6 +43,12 @@ p {
     color: var(--blaa);
 }
 
+li {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+    color: var(--blaa);
+}
+
 .h1_hvid {
     font-family: 'Work Sans', sans-serif;
     font-size: 4rem;
