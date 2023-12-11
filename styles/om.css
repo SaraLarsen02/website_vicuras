@@ -1,10 +1,10 @@
 @media (min-width: 800px) {
 
 /* --------------- Opsætning --------------- */
-main {
+/* main {
     max-width: 75%;
     margin: 0 auto;
-}
+} */
 
 /* --------------- Grids --------------- */
 .grid_1-1 {
@@ -22,11 +22,17 @@ main {
 
 /* --------------- Baggrund --------------- */
 .bagrund_blaa {
-    background-color: blue;
+    background-color: var(--blaa);
     padding: 10%;
 }
 
 .baggrund_pink {
-    background-color: palevioletred;
+    background-color: var(--pink);
     padding: 5%;
+}
+
+.top_banner {
+    background-color: var(--blaa);
+    padding: 5%;
+    text-align: center;
 }
