@@ -1,0 +1,32 @@
+@media (min-width: 800px) {
+
+/* --------------- Opsætning --------------- */
+main {
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+/* --------------- Grids --------------- */
+.grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5%;
+}
+
+.grid_3-2 {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+
+}
+
+/* --------------- Baggrund --------------- */
+.bagrund_blaa {
+    background-color: blue;
+    padding: 10%;
+}
+
+.baggrund_pink {
+    background-color: palevioletred;
+    padding: 5%;
+}
