@@ -10,5 +10,9 @@ h1 {
 
 /* footer */
 footer {
-  background-color: blue;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: var(--blaa);
+  gap: 6rem;
+  padding: 3rem;
 }
