@@ -1,0 +1,84 @@
+@media (min-width: 800px) {
+
+/* --------------- Opsætning --------------- */
+/* main {
+    max-width: 75%;
+    margin: 0 auto;
+} */
+
+.indryk_2 {
+    max-width: 70%;
+    margin: 5% auto;
+}
+
+.indryk_3 {
+    max-width: 93%;
+    margin: 5% auto;
+}
+
+/* --------------- Grids --------------- */
+.grid_1 {
+    display: grid;
+    gap: 5%;
+    margin: 0 0 0 25%;
+}
+
+.grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5%;
+}
+
+.grid_3-2 {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 5%;
+}
+
+}
+
+/* --------------- Baggrund --------------- */
+.bagrund_blaa {
+    background-color: var(--blaa);
+    padding: 5%;
+    max-width: 85%;
+    margin: 0 auto;
+    border-radius: 25px;
+}
+
+.baggrund_pink {
+    background-color: var(--pink);
+    padding: 9% 5% 9% 8%;
+    border-radius: 25px;
+}
+
+.top_banner {
+    display: grid;
+    background-color: var(--blaa);
+    padding: 3% 0 5% 0;
+    text-align: center;
+    gap: 12%;
+}
+
+/* --------------- Tekstdesign --------------- */
+.h3_design {
+    margin-bottom: 2%;
+}
+
+.p_design {
+    margin-bottom: 4%;
+}
+
+.li_design {
+    margin-bottom: 4%;
+    margin-left: 3%;
+}
+
+.tekst_center {
+    text-align: center;
+}
+
+/* --------------- Billededesign --------------- */
+.billede_1 {
+    padding: 0 10% 0 18%;
+}
