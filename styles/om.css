@@ -1,3 +1,81 @@
+/* MOBIL --- MOBIL --- MOBIL --- MOBIL --- MOBIL */
+@media (max-width: 800px) {
+
+/* --------------- Opsætning --------------- */
+.indryk_2 {
+    max-width: 85%;
+    margin: 5% auto;
+}
+
+.indryk_2_mob {
+    max-width: 85%;
+    margin: 5% auto;
+}
+
+.indryk_3 {
+    max-width: 93%;
+    margin: 8% auto 14% auto;
+}
+
+/* --------------- Baggrund --------------- */
+.bagrund_blaa {
+    background-color: var(--blaa);
+    padding: 6% 5% 8% 5%;
+    max-width: 85%;
+    margin: 0 auto;
+    border-radius: 25px;
+}
+
+.baggrund_pink {
+    background-color: var(--pink);
+    padding: 9% 5% 9% 8%;
+    border-radius: 25px;
+}
+
+.top_banner {
+    display: grid;
+    background-color: var(--blaa);
+    padding: 3% 0 5% 0;
+    text-align: center;
+}
+
+/* --------------- Grids --------------- */
+.grid_1 {
+    display: grid;
+    gap: 5%;
+    margin: 10% 0 18% 0;
+}
+
+.grid_1-1 {
+    display: grid;
+    gap: 8%;
+}
+
+/* --------------- Tekstdesign --------------- */
+.h3_design {
+    margin-bottom: 2%;
+}
+
+.p_design {
+    margin-bottom: 4%;
+}
+
+.li_design {
+    margin-bottom: 4%;
+    margin-left: 3%;
+}
+
+.tekst_center {
+    text-align: center;
+}
+
+}
+
+
+
+
+/* DESKTOP --- DESKTOP --- DESKTOP --- DESKTOP --- DESKTOP */
+
 @media (min-width: 800px) {
 
 /* --------------- Opsætning --------------- */
@@ -35,7 +113,7 @@
     gap: 5%;
 }
 
-}
+
 
 /* --------------- Baggrund --------------- */
 .bagrund_blaa {
@@ -60,6 +138,11 @@
     gap: 12%;
 }
 
+/* --------------- Billededesign --------------- */
+.billede_1 {
+    padding: 0 10% 0 18%;
+}
+
 /* --------------- Tekstdesign --------------- */
 .h3_design {
     margin-bottom: 2%;
@@ -78,7 +161,5 @@
     text-align: center;
 }
 
-/* --------------- Billededesign --------------- */
-.billede_1 {
-    padding: 0 10% 0 18%;
 }
+
