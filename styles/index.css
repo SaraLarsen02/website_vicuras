@@ -24,11 +24,13 @@
 }
 
 .forsidecard h1 {
-  font-family: "Work Sans", sans-serif;
+  color: #fff;
+  line-height: 3rem;
+  font-size: 3rem;
 }
 
 .forsidecard p {
-  font-family: "Work Sans", sans-serif;
+  color: #fff;
 }
 
 .voresydelser {
