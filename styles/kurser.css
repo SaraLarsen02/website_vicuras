@@ -1,62 +1,120 @@
-* {
-  box-sizing: border-box;
+/* --------------- 1 section (header bilde og tekst) --------------- */
+.header_img {
+  background-color: var(--blaa);
+  height: 450px;
 }
 
-main {
-  margin: 0px auto;
-  max-width: 1400px;
+.col_kurs {
+  background-color: var(--blaa);
+  margin: 20px;
 }
-
-img {
-  width: 100%;
-  height: auto;
-  display: block;
+.header_img h1 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+}
+.header_img p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+  max-width: 750px;
+  margin-left: 216px;
+}
+/* --------------- Våre kurser knapper design  --------------- */
+.grid_1_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 30px;
+  margin: 0px 30px 0 30px;
+}
+.col a {
+  text-decoration: none;
 }
 .col {
-  margin: -10px 53px 0px 32px;
+  margin: 25px 60px 65px 60px;
+
+  padding: 20px;
 }
 .col img {
   border-radius: 10px 10px 0px 0px;
 }
 .col_1 {
   background-color: antiquewhite;
+  background-color: var(--blaa);
   border-radius: 0px 0px 10px 10px;
+  height: 100px;
+  margin-top: -60px;
+  position: absolute;
+  width: 501px;
 }
 .col p {
   font-family: "Courier New", Courier, monospace;
   font-size: 1.5rem;
   text-align: center;
-  margin-top: 8px;
+  margin-top: 15px;
+  color: #fff;
 }
 
-.grid_1_1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 40px;
-  background-color: aquamarine;
-  padding: 60px;
+.col:hover {
+  transition: all 0.55s ease;
 }
 
-.grid_12_12 {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(12, 1fr);
-}
-
-.box_1 {
-  grid-column: 1 / span 12;
-  grid-row: 1 / span 3;
-  height: 300px;
-  object-fit: cover;
-}
-
-.box_2 {
-  grid-column: 2 / span 10;
-  grid-row: 3/9;
-  margin: 20px;
-}
+/* --------------- Vår underviser --------------- */
 
 .box_3 {
-  grid-column: 1/12;
-  grid-row: 9/12;
+  background-color: var(--blaa);
+  margin: 30px;
+  border-radius: 10px;
+}
+
+.box_3 h1 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.box_3 h2 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 100;
+  text-align: center;
+  color: #fff;
+}
+
+.box_3 p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+}
+
+video {
+  width: 1380px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.kurs_knap {
+  display: inline-block;
+  color: white;
+  background-color: var(--pink);
+  padding: 1% 8%;
+  line-height: 1.4;
+  font-size: 0.7rem;
+  font-weight: 500;
+  border-radius: 30px;
+  text-transform: uppercase;
+  transition: all 0.55s ease;
+  text-decoration: none;
+  margin: 3%;
+
+  margin-left: 200px;
 }
