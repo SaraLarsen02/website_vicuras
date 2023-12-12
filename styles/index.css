@@ -1,0 +1,153 @@
+#myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+.hero {
+  height: 700px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.forsidecard {
+  margin-top: 20%;
+  margin-left: 18%;
+  background-color: #011452;
+  color: white;
+  padding: 5rem;
+  border-radius: 25px;
+}
+
+.forsidecard h1 {
+  font-family: "Work Sans", sans-serif;
+}
+
+.forsidecard p {
+  font-family: "Work Sans", sans-serif;
+}
+
+.voresydelser {
+  background-color: #011452;
+  text-align: center;
+  padding: 3rem 0;
+  color: white;
+  width: 95%;
+  margin: 0 auto;
+  border-radius: 25px;
+  margin-top: -4rem;
+  z-index: 1000;
+}
+/* CODEPEN SLIDER */
+
+.img-container {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.img-container img {
+  width: 250px;
+  height: 300px;
+  background-color: #87a0e2;
+  border-radius: 50px;
+  position: absolute;
+  object-fit: cover;
+  user-select: none;
+  transition-property: transform, opacity, zIndex;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+.arrows {
+  width: 900px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  z-index: 100;
+}
+.arrows svg {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  fill: white;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.arrows svg:active {
+  transform: scale(0.9);
+  opacity: 1;
+  transition-property: transform, opacity;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+
+/* CODEPEN SLIDER SLUT */
+
+.mellembillede {
+  margin-top: -4rem;
+  position: relative;
+  z-index: -10000000;
+}
+
+.voreskurser {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #011452;
+  width: 95%;
+  margin: 0 auto;
+  border-radius: 25px;
+  color: white;
+  margin-top: -4rem;
+  z-index: 99;
+}
+
+.voreskurser_grid_1_1 {
+  margin: auto 4rem;
+}
+
+.voreskunder {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #ea47f7;
+  color: white;
+  margin-top: -4rem;
+  position: relative;
+  z-index: -99;
+  padding: 10rem 0;
+  margin-bottom: 5rem;
+}
+
+.voreskunder_grid_1_1 {
+  margin: auto 6rem;
+}
+
+.trivselcard {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  background-color: #011452;
+  color: white;
+  margin: 2rem 10rem;
+  gap: 5rem;
+  border-radius: 25px;
+}
+
+.trivselcard_2 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: #011452;
+  color: white;
+  gap: 5rem;
+  margin: 2rem 10rem;
+  border-radius: 25px;
+}
+
+.trivselcard_grid_1_1 {
+  margin: auto 0;
+}
