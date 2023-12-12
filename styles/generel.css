@@ -13,6 +13,10 @@ img {
 }
 
 /* --------------- Tekst --------------- */
+body {
+  line-height: 1.4;
+}
+
 h1 {
     font-family: 'Work Sans', sans-serif;
     font-size: 4rem;
