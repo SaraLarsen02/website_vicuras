@@ -1,3 +1,81 @@
+/* MOBIL --- MOBIL --- MOBIL --- MOBIL --- MOBIL */
+@media (max-width: 800px) {
+
+/* --------------- Opsætning --------------- */
+.indryk_2 {
+    max-width: 85%;
+    margin: 5% auto;
+}
+
+.indryk_2_mob {
+    max-width: 85%;
+    margin: 5% auto;
+}
+
+.indryk_3 {
+    max-width: 93%;
+    margin: 8% auto 14% auto;
+}
+
+/* --------------- Baggrund --------------- */
+.bagrund_blaa {
+    background-color: var(--blaa);
+    padding: 6% 5% 8% 5%;
+    max-width: 85%;
+    margin: 0 auto;
+    border-radius: 25px;
+}
+
+.baggrund_pink {
+    background-color: var(--pink);
+    padding: 9% 5% 9% 8%;
+    border-radius: 25px;
+}
+
+.top_banner {
+    display: grid;
+    background-color: var(--blaa);
+    padding: 3% 0 5% 0;
+    text-align: center;
+}
+
+/* --------------- Grids --------------- */
+.grid_1 {
+    display: grid;
+    gap: 5%;
+    margin: 10% 0 18% 0;
+}
+
+.grid_1-1 {
+    display: grid;
+    gap: 8%;
+}
+
+/* --------------- Tekstdesign --------------- */
+.h3_design {
+    margin-bottom: 2%;
+}
+
+.p_design {
+    margin-bottom: 4%;
+}
+
+.li_design {
+    margin-bottom: 4%;
+    margin-left: 3%;
+}
+
+.tekst_center {
+    text-align: center;
+}
+
+}
+
+
+
+
+/* DESKTOP --- DESKTOP --- DESKTOP --- DESKTOP --- DESKTOP */
+
 @media (min-width: 800px) {
 
 /* --------------- Opsætning --------------- */
@@ -6,7 +84,23 @@
     margin: 0 auto;
 } */
 
+.indryk_2 {
+    max-width: 70%;
+    margin: 5% auto;
+}
+
+.indryk_3 {
+    max-width: 93%;
+    margin: 5% auto;
+}
+
 /* --------------- Grids --------------- */
+.grid_1 {
+    display: grid;
+    gap: 5%;
+    margin: 0 0 0 25%;
+}
+
 .grid_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -16,23 +110,102 @@
 .grid_3-2 {
     display: grid;
     grid-template-columns: 3fr 2fr;
+    gap: 5%;
 }
 
-}
+
 
 /* --------------- Baggrund --------------- */
 .bagrund_blaa {
     background-color: var(--blaa);
-    padding: 10%;
+    padding: 5%;
+    max-width: 85%;
+    margin: 0 auto;
+    border-radius: 25px;
 }
 
 .baggrund_pink {
     background-color: var(--pink);
-    padding: 5%;
+    padding: 9% 5% 9% 8%;
+    border-radius: 25px;
 }
 
 .top_banner {
+    display: grid;
     background-color: var(--blaa);
-    padding: 5%;
+    padding: 3% 0 5% 0;
+    text-align: center;
+    gap: 12%;
+}
+
+.boks_1 {
+    background-color: yellow;
+    width: 20%;
+    height: 20%;
+}
+
+/* --------------- Billededesign --------------- */
+.billede_1 {
+    padding: 0 10% 0 18%;
+}
+
+/* --------------- Tekstdesign --------------- */
+.h3_design {
+    margin-bottom: 2%;
+}
+
+.p_design {
+    margin-bottom: 4%;
+}
+
+.li_design {
+    margin-bottom: 4%;
+    margin-left: 3%;
+}
+
+.tekst_center {
     text-align: center;
 }
+
+}
+
+/* --------------- Effekter (Lavet af CodePen) --------------- */
+.container {
+    position: relative;
+  }
+  
+  .image-container {
+    position: relative;
+    width: 300px; /* Juster bredde efter dit billede */
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Mørk overlay farve */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 18px;
+  }
+  
+  .overlay p {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .image-container:hover .overlay {
+    opacity: 1;
+  }
+  

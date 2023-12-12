@@ -1,39 +1,120 @@
 /* --------------- Reset --------------- */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 img {
-    width: 100%;
-    height: auto;
-    display: block;
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
-/* --------------- Tekst --------------- */
+/* --------------- Tekst på desktop --------------- */
+body {
+  line-height: 1.4;
+}
+
 h1 {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 4rem;
-    color: var(--blaa);
+  font-family: "Work Sans", sans-serif;
+  font-size: 4rem;
+  color: var(--blaa);
 }
 
 h2 {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 2.5rem;
-    color: var(--blaa);
+  font-family: "Work Sans", sans-serif;
+  font-size: 2.5rem;
+  color: var(--blaa);
 }
 
 h3 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 2rem;
+  color: var(--blaa);
+}
+
+h4 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.4rem;
+  color: var(--blaa);
+}
+
+p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1rem;
+  color: var(--blaa);
+}
+
+li {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1rem;
+  color: var(--blaa);
+}
+
+.h1_hvid {
+  font-family: "Work Sans", sans-serif;
+  font-size: 4rem;
+  color: white;
+}
+
+.h2_hvid {
+  font-family: "Work Sans", sans-serif;
+  font-size: 2.5rem;
+  color: white;
+}
+
+.h3_hvid {
+  font-family: "Work Sans", sans-serif;
+  font-size: 2rem;
+  color: white;
+}
+
+.h4_hvid {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.4rem;
+  color: white;
+}
+
+.p_hvid {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1rem;
+  color: white;
+}
+
+.p_hvid_menu {
+  font-family: "Work Sans", sans-serif;
+  font-size: 0.8rem;
+  color: white;
+}
+
+/* --------------- Tekst på mobil --------------- */
+@media (max-width: 800px) {
+body {
+  line-height: 1.4;
+}
+
+h1 {
     font-family: 'Work Sans', sans-serif;
     font-size: 2rem;
     color: var(--blaa);
 }
 
+h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.8rem;
+    color: var(--blaa);
+}
+
+h3 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.5rem;
+    color: var(--blaa);
+}
+
 h4 {
   font-family: 'Work Sans', sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: var(--blaa);
 }
 
@@ -43,27 +124,33 @@ p {
     color: var(--blaa);
 }
 
+li {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+    color: var(--blaa);
+}
+
 .h1_hvid {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 4rem;
-    color: white;
-}
-
-.h2_hvid {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 2.5rem;
-    color: white;
-}
-
-.h3_hvid {
     font-family: 'Work Sans', sans-serif;
     font-size: 2rem;
     color: white;
 }
 
+.h2_hvid {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.8rem;
+    color: white;
+}
+
+.h3_hvid {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+}
+
 .h4_hvid {
   font-family: 'Work Sans', sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: white;
 }
 
@@ -73,6 +160,14 @@ p {
     color: white;
 }
 
+.p_hvid_menu {
+  font-family: "Work Sans", sans-serif;
+  font-size: 0.8rem;
+  color: white;
+}
+
+}
+
 /* --------------- Farver --------------- */
 html {
   --blaa: rgb(4, 21, 79);
@@ -80,154 +175,333 @@ html {
 }
 
 /* --------------- Menu --------------- */
+
 .menu_top {
   width: 100%;
-  height: 20px;
+  height: 30px;
   background-color: var(--blaa);
   text-align: right;
+  font-family: "Work Sans", sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+.menu_top_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.ikon_laas {
+  width: auto;
+  max-height: 13px;
+  margin-left: 178.5%;
+  margin-top: 0.8%;
+}
+
+.mitvicuras_tekst {
+  margin-right: 11%;
+  margin-top: 0.6%;
 }
 
 header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 5% 2% 5%;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: "Work Sans", sans-serif;
+}
+
+.menu_logo img {
+  width: auto;
+  height: 53px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu a {
+  display: block;
+  padding: 10px;
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.3s;
+  text-align: end;
+}
+
+.menu a:hover {
+  color: var(--blaa);
+}
+
+.burger {
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.burger .line {
+  width: 100%;
+  height: 2px;
+  background-color: #000000;
+  margin-bottom: 5px;
+  transition: 0.2s linear;
+}
+.burger {
+  display: none;
+}
+
+.ikon {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 80px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu {
+  justify-content: left;
+}
+
+.navigationbar {
+  display: flex;
+  gap: 50px;
+}
+
+.knap {
+  background-color: var(--pink);
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  width: 150px;
+  border: none;
+  font-family: "Work Sans", sans-serif;
+  font-size: large;
+  color: white;
+}
+
+@media screen and (max-width: 800px) {
+
+  header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 4% 5% 4% 5%;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    font-family: 'Maven Pro', sans-serif;
-    font-weight: bold;
+    font-family: "Work Sans", sans-serif;
   }
-  
-  .logo img {
-    width: auto;
-    height: 40px;
-  }
-  
-  nav {
-    display: flex;
-    align-items: center;
-  }
-  
+
   .menu {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+    display: none;
   }
-  
-  .menu li {
-    margin-right: 20px;
-  }
-  
-  .menu li:last-child {
-    margin-right: 0;
-  }
-  
-  .menu a {
-    display: block;
-    padding: 10px;
-    color: #000000;
-    text-decoration: none;
-    transition: color 0.3s;
-    text-align: end;
-  }
-  
-  .menu a:hover {
-    color: hwb(25 0% 0%);
-  }
-  
   .burger {
-    width: 30px;
-    height: 20px;
-    cursor: pointer;
+    display: block;
+    margin-left: -3px;
   }
   
-  .burger .line {
-    width: 100%;
-    height: 2px;
-    background-color: #000000;
-    margin-bottom: 5px;
+  .burger.active .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
     transition: 0.2s linear;
   }
-  .burger {
-    display: none;
+
+  .burger.active .line:nth-child(2) {
+    opacity: 0;
+    transition: 0.15s linear;
+  }
+
+  .burger.active .line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+    transition: 0.2s linear;
+  }
+
+  nav.active .menu {
+    display: block;
+    background-color: #fff;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+
+  nav.active .menu li {
+    margin: 10px 20px;
+  }
+
+  nav.active .menu a {
+    font-size: 24px;
   }
 
   .ikon {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 80px;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .ikon_søg {
-    height: 25px;
-    width: 25px;
-  }
-
-  .ikon_kurv {
-    height: 25px;
-    width: 25px;
-  }
-
-  .menu {
-    justify-content: left;
+    display: none;
   }
 
   .navigationbar {
     display: flex;
     gap: 50px;
+    flex-direction: row-reverse;
   }
 
-  @media screen and (max-width: 800px) {
-    .menu {
-      display: none;
-    }
-    .burger {
-      display: block;
-      margin-left: 133px;
-    }
-    .burger.active .line:nth-child(1) {
-      transform: rotate(45deg) translate(5px, 5px);
-      transition: 0.2s linear;
-    }
-  
-    .burger.active .line:nth-child(2) {
-      opacity: 0;
-      transition: 0.15s linear;
-    }
-  
-    .burger.active .line:nth-child(3) {
-      transform: rotate(-45deg) translate(5px, -5px);
-      transition: 0.2s linear;
-    }
-  
-    nav.active .menu {
-      display: block;
-      background-color: #fff;
-      position: absolute;
-      top: 50px;
-      left: 0;
-      width: 100%;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      z-index: 1;
-    }
-  
-    nav.active .menu li {
-      margin: 10px 20px;
-    }
-  
-    nav.active .menu a {
-      font-size: 24px;
-    }
+  .menu_logo img {
+    width: auto;
+    height: 40px;
+  }
 
-    .ikon {
-        display: none;
-    }
+  .menu_top_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .ikon_laas {
+    width: auto;
+    max-height: 13px;
+    margin-left: 150.5%;
+    margin-top: 3%;
+  }
+  
+  .mitvicuras_tekst {
+    margin-right: 10%;
+    margin-top: 2.6%;
+  }
 
-    .logo img {
-        width: auto;
-        height: 30px;
-      }
-  }  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------- footer -----------*/
+@media screen and (min-width: 800px) {
+
+  footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: var(--blaa);
+    gap: 6rem;
+    padding: 8% 5% 8% 5%;
+  }
+  
+  .p_footer_fed {
+    font-weight: bold;
+    margin-bottom: 1.5%;
+    margin-top: 11%;
+  }
+  
+  .knap_footer {
+      background-color: var(--pink);
+      padding: 5% 14% 5% 14%;
+      border-radius: 50px;
+      width: 250px;
+      border: none;
+      font-family: 'Work Sans', sans-serif;
+      font-size: large;
+      color: white;
+  }
+  
+  .grid_footer_knap {
+    display: grid;
+    gap: 5%;
+  }
+  
+  .p_footer_design {
+    margin-left: 18%;
+    width: 103%;
+  }
+  
+  .footer_logo {
+    height: auto;
+    width: 125%;
+  }
+  
+  .grid_social {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12%;
+    width: 55%;
+    margin-top: 10%;
+  }
+  
+  .div_footer_design {
+    margin-left: 38%;
+    margin-top: 4%;
+  }
+  
+  .div_footer_design2 {
+    margin-left: 14%;
+  }
+  
+  .p_footer_mellemrum {
+    margin-top: 7%;
+  }
+  
+}
+
+@media screen and (max-width: 800px) {
+footer {
+  display: grid;
+  background-color: var(--blaa);
+  gap: 2rem;
+  padding: 8% 5% 8% 10%;
+}
+
+.grid_social {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12%;
+  width: 55%;
+  margin-top: 12%;
+  max-width: 200px;
+}
+
+.knap_footer {
+  background-color: var(--pink);
+  padding: 5% 14% 5% 14%;
+  border-radius: 50px;
+  width: 357px;
+  border: none;
+  font-family: 'Work Sans', sans-serif;
+  font-size: large;
+  color: white;
+}
+
+.grid_footer_knap {
+  display: grid;
+  gap: 8%;
+  margin: 5% 0 20% 0;
+}
+
+.footer_logo {
+  height: auto;
+  width: 98%;
+  margin-left: -6%;
+}
+
+.p_footer_fed {
+  font-weight: bold;
+}
+}
