@@ -174,7 +174,7 @@ html {
   --pink: rgb(217, 84, 239);
 }
 
-/* --------------- Menu --------------- */
+/* --------------- Menu (fra tidligere opgave) --------------- */
 
 .menu_top {
   width: 100%;
@@ -296,6 +296,16 @@ nav {
   color: white;
 }
 
+/* Effekt (via ChatGPT) */
+.hover-button {
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.hover-button:hover {
+  transform: scale(1.1);
+}
+
 @media screen and (max-width: 800px) {
 
   header {
@@ -387,15 +397,7 @@ nav {
 
 
 
-
-
-
-
-
-
-
-
-/* ---------- footer -----------*/
+/* ---------- Footer -----------*/
 @media screen and (min-width: 800px) {
 
   footer {

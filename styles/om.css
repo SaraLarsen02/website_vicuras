@@ -4,12 +4,12 @@
 /* --------------- Opsætning --------------- */
 .indryk_2 {
     max-width: 85%;
-    margin: 5% auto;
+    margin: 8% auto;
 }
 
 .indryk_2_mob {
     max-width: 85%;
-    margin: 5% auto;
+    margin: 2% auto 0 auto;
 }
 
 .indryk_3 {
@@ -35,7 +35,7 @@
 .top_banner {
     display: grid;
     background-color: var(--blaa);
-    padding: 3% 0 5% 0;
+    padding: 6% 0 9% 0;
     text-align: center;
 }
 
@@ -49,6 +49,12 @@
 .grid_1-1 {
     display: grid;
     gap: 8%;
+}
+
+.grid_1-1_1 {
+    display: grid;
+    gap: 3%;
+    margin-bottom: 15%;
 }
 
 /* --------------- Tekstdesign --------------- */
@@ -97,11 +103,17 @@
 /* --------------- Grids --------------- */
 .grid_1 {
     display: grid;
-    gap: 5%;
-    margin: 0 0 0 25%;
+    gap: 0%;
+    margin: 0 0 0 14%;
 }
 
 .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5%;
+}
+
+.grid_1-1_1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 5%;
@@ -112,8 +124,6 @@
     grid-template-columns: 3fr 2fr;
     gap: 5%;
 }
-
-
 
 /* --------------- Baggrund --------------- */
 .bagrund_blaa {
@@ -147,6 +157,8 @@
 /* --------------- Billededesign --------------- */
 .billede_1 {
     padding: 0 10% 0 18%;
+    height: auto;
+    width: 109%;
 }
 
 /* --------------- Tekstdesign --------------- */
@@ -176,7 +188,7 @@
   
   .image-container {
     position: relative;
-    width: 300px; /* Juster bredde efter dit billede */
+    width: 385px; /* Juster bredde efter dit billede */
   }
   
   img {
@@ -203,6 +215,7 @@
     color: white;
     font-size: 24px;
     text-align: center;
+    font-weight: bold;
   }
   
   .image-container:hover .overlay {
