@@ -101,6 +101,7 @@
 .voreskurser {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 30px;
   background-color: #011452;
   width: 95%;
   margin: 0 auto;
@@ -111,7 +112,23 @@
 }
 
 .voreskurser_grid_1_1 {
-  margin: auto 4rem;
+  margin: auto 0rem;
+}
+
+.voreskurser_grid_1_1 img {
+  border-radius: 25px;
+}
+
+.voreskurser_grid_1_1 p {
+  margin-left: 5rem;
+}
+
+.voreskurser_grid_1_1 h2 {
+  margin-left: 5rem;
+}
+
+.voreskurser_grid_1_1 button {
+  margin-left: 5rem;
 }
 
 .voreskunder {
@@ -140,6 +157,26 @@
   border-radius: 25px;
 }
 
+.trivselcard h3 {
+  margin-right: 4rem;
+}
+
+.trivselcard p {
+  margin-right: 4rem;
+}
+
+.trivselcard_2 h3 {
+  margin-left: 4rem;
+}
+
+.trivselcard_2 p {
+  margin-left: 4rem;
+}
+
+.trivselcard img {
+  border-radius: 25px;
+}
+
 .trivselcard_2 {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -152,4 +189,16 @@
 
 .trivselcard_grid_1_1 {
   margin: auto 0;
+}
+
+@media screen and (max-width: 700px) {
+  .voreskurser {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .voreskunder {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
