@@ -82,6 +82,12 @@ li {
   color: white;
 }
 
+.p_hvid_menu {
+  font-family: "Work Sans", sans-serif;
+  font-size: 0.8rem;
+  color: white;
+}
+
 /* --------------- Tekst på mobil --------------- */
 @media (max-width: 800px) {
 body {
@@ -154,6 +160,12 @@ li {
     color: white;
 }
 
+.p_hvid_menu {
+  font-family: "Work Sans", sans-serif;
+  font-size: 0.8rem;
+  color: white;
+}
+
 }
 
 /* --------------- Farver --------------- */
@@ -171,6 +183,24 @@ html {
   text-align: right;
   font-family: "Work Sans", sans-serif;
   color: white;
+  text-decoration: none;
+}
+
+.menu_top_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.ikon_laas {
+  width: auto;
+  max-height: 13px;
+  margin-left: 178.5%;
+  margin-top: 0.8%;
+}
+
+.mitvicuras_tekst {
+  margin-right: 11%;
+  margin-top: 0.6%;
 }
 
 header {
@@ -333,6 +363,23 @@ nav {
   .menu_logo img {
     width: auto;
     height: 40px;
+  }
+
+  .menu_top_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .ikon_laas {
+    width: auto;
+    max-height: 13px;
+    margin-left: 150.5%;
+    margin-top: 3%;
+  }
+  
+  .mitvicuras_tekst {
+    margin-right: 10%;
+    margin-top: 2.6%;
   }
 
 }
