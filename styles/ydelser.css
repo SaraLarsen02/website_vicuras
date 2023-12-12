@@ -36,6 +36,11 @@ h1 {
   cursor: pointer;
 }
 
+.ydelserbox {
+  margin-left: 2rem;
+  margin-right: 4rem;
+}
+
 /* ---------- sundhedsambassadør -----------*/
 .sundhed_col {
   display: grid;
