@@ -310,8 +310,9 @@ nav {
   .ikon {
     display: none;
   }
+}
 
-<<<<<<< HEAD
+
   @media screen and (max-width: 800px) {
     .menu {
       display: none;
@@ -425,10 +426,9 @@ footer {
 .p_footer_mellemrum {
   margin-top: 7%;
 }
-=======
+
   .logo img {
     width: auto;
     height: 30px;
   }
-}
->>>>>>> 59a00b17272c9fd106d8b6bc63794eac1f051a9e
+
