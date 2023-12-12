@@ -12,7 +12,7 @@ img {
     display: block;
 }
 
-/* --------------- Tekst --------------- */
+/* --------------- Tekst på desktop --------------- */
 body {
   line-height: 1.4;
 }
@@ -81,6 +81,80 @@ li {
     font-family: 'Work Sans', sans-serif;
     font-size: 1rem;
     color: white;
+}
+
+/* --------------- Tekst på mobil --------------- */
+@media (max-width: 800px) {
+body {
+  line-height: 1.4;
+}
+
+h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2rem;
+    color: var(--blaa);
+}
+
+h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.8rem;
+    color: var(--blaa);
+}
+
+h3 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.5rem;
+    color: var(--blaa);
+}
+
+h4 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.2rem;
+  color: var(--blaa);
+}
+
+p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+    color: var(--blaa);
+}
+
+li {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+    color: var(--blaa);
+}
+
+.h1_hvid {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2rem;
+    color: white;
+}
+
+.h2_hvid {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.8rem;
+    color: white;
+}
+
+.h3_hvid {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.h4_hvid {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.p_hvid {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+    color: white;
+}
+
 }
 
 /* --------------- Farver --------------- */
@@ -243,3 +317,65 @@ header {
         height: 30px;
       }
   }  
+
+  /* ---------- footer -----------*/
+footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: var(--blaa);
+  gap: 6rem;
+  padding: 8% 5% 8% 10%;
+}
+
+.p_footer_fed {
+  font-weight: bold;
+  margin-bottom: 1.5%;
+  margin-top: 11%;
+}
+
+.knap_footer {
+    background-color: var(--pink);
+    padding: 5% 14% 5% 14%;
+    border-radius: 50px;
+    width: 250px;
+    border: none;
+    font-family: 'Work Sans', sans-serif;
+    font-size: large;
+    color: white;
+}
+
+.grid_footer_knap {
+  display: grid;
+  gap: 5%;
+}
+
+.p_footer_design {
+  margin-left: 18%;
+  width: 103%;
+}
+
+.footer_logo {
+  height: auto;
+  width: 125%;
+}
+
+.grid_social {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12%;
+  width: 55%;
+  margin-top: 12%;
+}
+
+.div_footer_design {
+  margin-left: 38%;
+  margin-top: 4%;
+}
+
+.div_footer_design2 {
+  margin-left: 14%;
+}
+
+.p_footer_mellemrum {
+  margin-top: 7%;
+}

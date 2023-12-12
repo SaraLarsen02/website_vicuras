@@ -138,6 +138,12 @@
     gap: 12%;
 }
 
+.boks_1 {
+    background-color: yellow;
+    width: 20%;
+    height: 20%;
+}
+
 /* --------------- Billededesign --------------- */
 .billede_1 {
     padding: 0 10% 0 18%;
