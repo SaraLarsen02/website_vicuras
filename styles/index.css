@@ -41,7 +41,7 @@
   width: 95%;
   margin: 0 auto;
   border-radius: 25px;
-  margin-top: -4rem;
+  margin-top: -7.5rem;
   z-index: 1000;
 }
 /* CODEPEN SLIDER */
@@ -96,6 +96,8 @@
   margin-top: -4rem;
   position: relative;
   z-index: -10000000;
+  max-height: 600px;
+  object-fit: cover;
 }
 
 .voreskurser {
@@ -177,6 +179,10 @@
   border-radius: 25px;
 }
 
+.trivselcard_2 img {
+  border-radius: 25px;
+}
+
 .trivselcard_2 {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -191,14 +197,66 @@
   margin: auto 0;
 }
 
+@media screen and (max-width: 1100px) {
+  .trivselcard {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 2rem 2rem;
+    gap: 2rem;
+  }
+
+  .trivselcard h3 {
+    text-align: center;
+    margin: 0;
+  }
+
+  .trivselcard p {
+    text-align: center;
+    margin: 1rem;
+  }
+
+  .trivselcard_2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 2rem 2rem;
+    gap: 2rem;
+  }
+
+  .trivselcard_2 h3 {
+    text-align: center;
+    margin: 1rem;
+  }
+
+  .trivselcard_2 p {
+    text-align: center;
+    margin: 0 1rem;
+  }
+}
+
 @media screen and (max-width: 700px) {
   .voreskurser {
     display: grid;
     grid-template-columns: 1fr;
+    padding-top: 2rem;
+    padding-right: 3rem;
   }
 
   .voreskunder {
     display: grid;
     grid-template-columns: 1fr;
+  }
+
+  .forsidecard h1 {
+    color: #fff;
+    line-height: 2rem;
+    font-size: 2rem;
+  }
+
+  .forsidecard p {
+    margin-bottom: -3rem;
+  }
+
+  .forsidecard {
+    padding: 2rem;
   }
 }
