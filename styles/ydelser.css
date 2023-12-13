@@ -79,6 +79,10 @@
     transition: 2s;
     transform: scale(1.1);
   }
+
+  .sidste_col {
+    grid-column: 2/3;
+  }
 }
 
 /* ---------- blå boks -----------*/
@@ -108,9 +112,9 @@
   margin-top: 60px;
 }
 
-/* ---------- Det her vil jeg gerne have til at gøre mit billede rundt -----------*/
-.sundhed_billede img {
-  border-radius: 50px;
+/* ---------- Gør mit billede rundt -----------*/
+.sundhed_billede {
+  border-radius: 200px;
 }
 
 /* ---------- footer -----------*/
