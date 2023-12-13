@@ -17,6 +17,13 @@
     margin: 8% auto 14% auto;
 }
 
+/* --------------- Videodesign --------------- */
+.video {
+    height: auto;
+    width: 100%;
+    border-radius: 25px;
+}
+
 /* --------------- Baggrund --------------- */
 .bagrund_blaa {
     background-color: var(--blaa);
