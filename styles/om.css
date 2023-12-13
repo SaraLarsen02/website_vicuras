@@ -161,6 +161,13 @@
     width: 109%;
 }
 
+/* --------------- Videodesign --------------- */
+.video {
+    height: auto;
+    width: 100%;
+    border-radius: 25px;
+}
+
 /* --------------- Tekstdesign --------------- */
 .h3_design {
     margin-bottom: 2%;
