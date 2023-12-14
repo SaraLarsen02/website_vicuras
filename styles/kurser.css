@@ -40,7 +40,6 @@
   }
   .col {
     margin: 25px 60px 65px 60px;
-    padding: 20px;
   }
   .col img {
     border-radius: 10px 10px 0px 0px;
@@ -159,8 +158,6 @@
     border-radius: 10px 10px 0px 0px;
   }
   .col_1 {
-    display: grid;
-    grid-template-columns: 1fr;
     padding: 10px;
     background-color: antiquewhite;
     background-color: var(--blaa);
