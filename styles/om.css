@@ -17,6 +17,13 @@
     margin: 8% auto 14% auto;
 }
 
+/* --------------- Videodesign --------------- */
+.video {
+    height: auto;
+    width: 100%;
+    border-radius: 25px;
+}
+
 /* --------------- Baggrund --------------- */
 .bagrund_blaa {
     background-color: var(--blaa);
@@ -58,6 +65,10 @@
 }
 
 /* --------------- Tekstdesign --------------- */
+.h2_design {
+    margin-bottom: 2%;
+}
+
 .h3_design {
     margin-bottom: 2%;
 }
@@ -161,7 +172,18 @@
     width: 109%;
 }
 
+/* --------------- Videodesign --------------- */
+.video {
+    height: auto;
+    width: 100%;
+    border-radius: 25px;
+}
+
 /* --------------- Tekstdesign --------------- */
+.h2_design {
+    margin-bottom: 2%;
+}
+
 .h3_design {
     margin-bottom: 2%;
 }
