@@ -46,22 +46,20 @@
     border-radius: 10px 10px 0px 0px;
   }
   .col_1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
     background-color: antiquewhite;
     background-color: var(--blaa);
     border-radius: 0px 0px 10px 10px;
-    height: 100px;
-    margin-top: -60px;
-    width: 501px;
-    position: absolute;
   }
   .col p {
     font-family: "Work Sans", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: center;
-    margin-top: 15px;
+    margin: 15px;
     color: #fff;
   }
-
   .kurs_knap {
     font-family: "Work Sans", sans-serif;
     display: inline-block;
@@ -73,10 +71,10 @@
     font-weight: 500;
     border-radius: 30px;
     text-transform: uppercase;
-    transition: all 0.55s ease;
     text-decoration: none;
-    margin: 3%;
-    margin-left: 200px;
+    margin: 0% auto;
+    text-align: center;
+    width: fit-content;
   }
 
   .col:hover {
@@ -122,7 +120,7 @@
   }
 
   video {
-    width: 1380px;
+    max-width: 100%;
     margin-top: 40px;
     margin-bottom: 20px;
   }
@@ -161,19 +159,19 @@
     border-radius: 10px 10px 0px 0px;
   }
   .col_1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
     background-color: antiquewhite;
     background-color: var(--blaa);
     border-radius: 0px 0px 10px 10px;
-    height: 100px;
-    margin-top: -60px;
-    width: 300px;
-    position: absolute;
   }
+
   .col p {
     font-family: "Work Sans", sans-serif;
     font-size: 1.2rem;
     text-align: center;
-    margin-top: 15px;
+    margin: 10px;
     color: #fff;
   }
 
@@ -188,10 +186,10 @@
     font-weight: 500;
     border-radius: 30px;
     text-transform: uppercase;
-    transition: all 0.55s ease;
     text-decoration: none;
-    margin: 4%;
-    margin-left: 110px;
+    margin: 0% auto;
+    text-align: center;
+    width: fit-content;
   }
 
   .col:hover {
@@ -237,7 +235,7 @@
   }
 
   video {
-    width: 430px;
+    max-width: 100%;
     margin-top: 40px;
     margin-bottom: 20px;
   }
